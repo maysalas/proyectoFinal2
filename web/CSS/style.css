@@ -1,0 +1,113 @@
+
+body {
+    background-image: url("../IMG/lib5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    background-position: center;
+}
+
+
+#maindiv{
+    
+    margin: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    padding-top: 5%;
+    display: table-cell;
+    background-color: rgba(124,124,124,0.8);
+    width: 350px;
+    height: 70vh;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+}
+
+input[type=text], input[type=password]{
+    border-radius: 30px;
+    margin-left: 15px;
+    padding-left: 10px;
+    height: 20px;
+}
+input[type=submit]{
+    border-radius: 30px;
+    width: 150px;
+    background-color: limegreen;
+    color: white;
+}
+
+
+/* Pagina de acervo */
+#acervo{
+    color: white;
+}
+
+#acervmain {
+    background-color: rgba(56, 56, 56,0.7);
+    height: 97vh;
+    width: 99vw;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#libros {
+     background-color: rgba(255, 255, 255,0.7); 
+     height: 95%;
+     margin: 15px;
+     text-align: center;
+}
+
+.libros {
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    height: 98%;
+    width: 32.5%;
+    float:left;
+    margin:5px;
+}
+
+#lib1 {
+    background-image: url("../IMG/narnia.gif");   
+}
+
+#lib2 {
+    background-image: url("../IMG/principito.jpg");   
+}
+
+#lib3 {
+    background-image: url("../IMG/ladrona.jpg");    
+}
+
+.boton_pro {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 20px;
+    border: 2px solid #0016b0;
+}
+
+.text_pro {
+    text-decoration: none;
+    padding: 10px;
+    width: 45%;
+    font-weight: 600;
+    font-size: 20px;
+    color: dodgerblue;
+    border: 2px solid #0016b0;
+}
